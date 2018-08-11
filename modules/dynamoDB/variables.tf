@@ -1,6 +1,7 @@
 # variable "env" {
 #   description = "The prefix for the names of table according to current global config for config server, eg perf1 perf2 prod etc"
 # }
+# comment
 
 variable "count" {
   default = "1"
