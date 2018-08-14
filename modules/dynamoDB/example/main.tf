@@ -1,5 +1,5 @@
 module "iac-test-as-db" {
-  source                 = "../../../modules/dynamodb"
+  source                 = "../../../modules/dynamoDB"
   count                  = "1"
   name                   = "iac-test-asg-db"
   write_capacity         = "${var.write_capacity}"
@@ -17,7 +17,7 @@ module "iac-test-as-db" {
 
 
 module "iac-test" {
-  source                 = "../../../modules/dynamodb"
+  source                 = "../../../modules/dynamoDB"
   count                  = "1"
   name                   = "iac-test"
   write_capacity         = "${var.write_capacity}"
